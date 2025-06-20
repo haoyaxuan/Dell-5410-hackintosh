@@ -52,6 +52,8 @@
 * 将EFI-shell文件夹复制到U盘，改名为EFI，然后从U盘启动
 * 设置 Pre-Allocated DVMT 为 64M:
   ***setup_var 0xf5 0x02***
+* 设置 Total Gfx Mem DVMT 为 MAX:
+  ***setup_var 0xf6 0x03***
 * 禁用 CFG lock:
   ***setup_var 0x3e 0x00***
 
