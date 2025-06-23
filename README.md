@@ -32,7 +32,7 @@
 
 ## 说明
 - `hackintool`目录下有所需要的工具以及ACPI、BIOS等。
-- [OCAT_Mac](https://github.com/ic005k/OCAuxiliaryTools/releases)
+- 下载OC编辑器，[OCAT_Mac](https://github.com/ic005k/OCAuxiliaryTools/releases)
 
 ## BIOS设置
 * General -> Boot Sequence：勾选所有Boot Sequence选项
