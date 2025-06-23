@@ -49,13 +49,23 @@
 
 
 ## BIOS设置 For 隐项
-* 将EFI-shell文件夹复制到U盘，改名为EFI，然后从U盘启动
-* 设置 Pre-Allocated DVMT 为 64M:
-  ***setup_var 0xf5 0x02***
-* 设置 Total Gfx Mem DVMT 为 MAX:
-  ***setup_var 0xf6 0x03***
-* 禁用 CFG lock:
-  ***setup_var 0x3e 0x00***
+* 在引导页按空格键，进入`modGRUBShell`
+1. 设置 Pre-Allocated DVMT 为 64M:
+
+   ```
+   setup_var_cv SaSetup 0xF5 0x1 0x2
+   ```
+  
+2. 设置 Total Gfx Mem DVMT 为 MAX:
+
+   ```
+   setup_var_cv SaSetup 0xF6 0x1 0x3
+   ```
+3. 禁用 CFG lock:
+
+   ```
+   setup_var_cv CpuSetup 0x3E 0x1 0x0
+   ```
 
 
 ## 更新日志
