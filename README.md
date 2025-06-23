@@ -35,7 +35,6 @@
 
 ## BIOS设置
 * General -> Boot Sequence：勾选所有Boot Sequence选项
-* General -> Advanced Boot Options：取消Enable Legacy Option ROMs
 * System Configuration -> SATA Operation：勾选AHCI
 * System Configuration -> USB Configuration：勾选全部
 * System Configuration -> Audio：勾选全部
