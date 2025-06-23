@@ -1,7 +1,7 @@
 # DELL-5410
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.7-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS](https://img.shields.io/badge/macOS-13.6-orange.svg)](https://www.apple.com/macos/ventura)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.9-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-13.6.7-orange.svg)](https://www.apple.com/macos/ventura)
 
 ## 电脑配置
 
