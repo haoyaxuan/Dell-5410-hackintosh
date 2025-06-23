@@ -30,11 +30,6 @@
 11：支持原生亮度快捷键。
 
 
-## 镜像下载
-- [MacOS Monterey 12.5](https://osx.cx/macos-monterey-12-5-21f79.html)
-- 感谢 @黑果小兵 @黑苹果社区
-
-
 ## 说明
 - `hackintool`目录下有所需要的工具以及ACPI、BIOS等。
 
